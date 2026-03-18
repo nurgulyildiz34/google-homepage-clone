@@ -1,0 +1,56 @@
+#google {
+    text-align: center;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column; /* Elemanları alt alta dizer */
+    align-items: center;    /* Yatayda ortalar */
+    justify-content: center; /* Dikeyde ortalar (sayfa boyu yüksekse) */
+}
+
+#google img {
+    width: 272px;
+    margin-bottom: 20px; /* Logo ile arama çubuğu arasına boşluk bırakır */
+}
+
+#floatingInputGroup1 {
+    width: 100%;           /* Kapsayıcısının tamamını kaplar */
+    max-width: 600px;      /* Çok fazla yayılmasını engeller, ideal sınır */
+    height: 45px;          /* Daha kalın bir görünüm sağlar */
+    border-radius: 24px;   /* Kenarları Google tarzı yuvarlak yapar */
+    padding: 0 20px;       /* Yazının kenarlara yapışmasını önler */
+    font-size: 16px;       /* Yazı boyutunu okunabilir yapar */
+    border: 1px solid #dfe1e5; /* Daha yumuşak bir kenarlık rengi */
+}
+
+#google-search {
+    width: 90%;            /* Mobil cihazlarda ekranın %90'ını kaplar */
+    max-width: 600px;      /* Masaüstünde sabit bir genişlikte kalır */
+    margin: 20px auto;     /* Logodan uzaklaştırır ve yatayda ortalar */
+}
+
+.btn btn-outline-primary{
+    text-align: left;
+}
+
+.button-group {
+    display: flex;          /* Butonları yan yana getirir */
+    justify-content: center; /* Grubu yatayda ortalar */
+    gap: 15px;              /* İki buton arasındaki mesafeyi ayarlar (İstediğin o "tık" mesafe) */
+    margin-top: 20px;       /* Arama çubuğu ile butonlar arasındaki boşluk */
+}
+
+.btn-light {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.link {
+  position: absolute;
+  top: 10px;
+  right: 50px;
+}
